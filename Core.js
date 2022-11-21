@@ -1488,13 +1488,13 @@ if (isBanChat) return reply(mess.banChat)
 reply(` لا تنسي الانضمام معنا❤️!
 
 *جروب 1*
-https://chat.whatsapp.com/DHq2KYcAzWG95WTpzVQx3D
+https://chat.whatsapp.com/BLslNI44y4C8U1PEAPeqdc
 
 *جروب 2*
-https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY
+https://chat.whatsapp.com/BLslNI44y4C8U1PEAPeqdc
 
 *جروب 3*
-https://chat.whatsapp.com/DHq2KYcAzWG95WTpzVQx3D`)
+https://chat.whatsapp.com/BLslNI44y4C8U1PEAPeqdc `)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -2475,7 +2475,7 @@ if (isBanChat) return reply(mess.bangc)
   
  *الرساله : ${args.join(" ") ? args.join(" ") : 'مفيش رساله'}*\n\n`
  for (let mem of participants) {
- teks += `🐤 @${mem.id.split('@')[0]}\n`
+ teks += `🦇 @${mem.id.split('@')[0]}\n`
  }
  Miku.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, { quoted: m })
  }
@@ -5049,6 +5049,16 @@ case 'help': case 'الاوامر': case 'menu': case 'اوامر': case 'الق
 
 ⇜.انوس
 ⇜المطور الاساسي الي هذا البوت اذا كتبت.انوس تعتبر الاوامر
+
+⇜. الوصفه 
+⇜عرض الوصفه حق الجروب 
+
+⇜.الدعم
+⇜عرض الدعم
+
+⇜.التسجيل 
+⇜روابط الجروب 
+
 ⇜ .الاوامر
 ⇜ يعرض لك قائمة الاوامر
 
