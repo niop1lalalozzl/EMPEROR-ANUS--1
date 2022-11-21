@@ -1530,6 +1530,18 @@ case 'الشرح': case 'الوصف':
 *كيف صنع بوت وتس فيه أكثر من 300امر*
 
 https://youtu.be/Ligaee2E-Hc
+*كيف صنع بوت وتس ملصقات* *وأوامر كثييره 😍* 
+*بوت اسطوره🤩*
+*رابط الفيديو📽️* 
+*كل الروابط في التعليقات* 
+*اذا واجهتك اي مشكله ادخل* *جروب الدعم💪*
+https://youtu.be/8v7smdKSklA
+*ملاحظة⚠️*
+*سوي اشتراك ولايكي وتعليق حلو مثلك❣️*
+https://youtu.be/Ligaee2E-Hc
+*كيف تصنع بوت وتس ملصقات وأوامر كثييره بوت خيالي🥳🥳🥳*
+https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY
+*جروب تعليم صناعت بوتات 😍*
 
 *✶━━━✲─ • ❨🤖❩ • ─✲━━━✶
 *كيف صنع بوت اجنبي*
@@ -3707,6 +3719,57 @@ await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: 
 }
 break
 
+case 'زوجني': case 'نتزوج': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let orang = member[Math.floor(Math.random() * member.length)]
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab =  `「خذ/ي لك هذا شوف/ي على جمال」◣ @${jodoh.split('@')[0]}
+「 اذا اعجبك إضغط ازر🤡 」◣`
+let menst = [orang, jodoh]
+let buttons = [
+{ buttonId: '「 تمام شكرا انوسي💖」◣', buttonText: { displayText: '「 تمام شكرا انوسي💖」◣' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: menst})
+}
+break
+
+case 'كلب': case 'كلبه': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let orang = member[Math.floor(Math.random() * member.length)]
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `@${orang.split('@')[0]} 「 هذا اكبر كلب 💔 」◣
+「 الي يشوفه مش مناسبين لبعض زيي يضغط يب 🤡 」◣`
+let menst = [orang, jodoh]
+let buttons = [
+{ buttonId: '「 يب😂😭 」◣', buttonText: { displayText: '「 يب😂😭 」◣' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: menst})
+}
+break
+
+case 'ضعيف': case 'ضعيفه': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let orang = member[Math.floor(Math.random() * member.length)]
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `@${orang.split('@')[0]}「اكبر ضعيف في الجروب 」◣ 
+「 الي يشوفه مش مناسبين لبعض زيي يضغط يب 🤡 」◣`
+let menst = [orang, jodoh]
+let buttons = [
+{ buttonId: '「 يب هم مش مناسبين لبعض 💔 」◣', buttonText: { displayText: '「 يب     💔 」◣' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: menst})
+}
+break
+
 case 'soulmate': case 'رفيق': {
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
@@ -3724,6 +3787,106 @@ await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: 
 }
 break
 
+case 'soulmate': case 'غبي': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `اغبي شخص في الجروب 😂
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: '😂', buttonText: { displayText: 'يب😂' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'soulmate': case 'حمار': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `اكبر حمار في الجروب هوا
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: '😂', buttonText: { displayText: 'يب😂' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'soulmate': case 'قوي': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `اشخص القوي🤩
+@${me.split('@')[0]} ❤️`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: '🤩', buttonText: { displayText: 'يب💪' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'soulmate': case 'حزين': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `شخص 😔 💔 حزين
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: '😔', buttonText: { displayText: 'مسكين😔' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'soulmate': case 'رجال': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `افخم رجال في العالم هوا
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: '🤩', buttonText: { displayText: 'فخامه💪🤩' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'soulmate': case 'ذكي': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `اجمل ذكي في الجروب هوا 
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: '🙂', buttonText: { displayText: 'يب🙂' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
 break
 
 case 'فارقني': case 'فراق': {
@@ -4873,96 +5036,233 @@ case 'help': case 'الاوامر': case 'menu': case 'اوامر': case 'الق
       
  const helpmenu =`هاي*${pushname}*,
 
-↲ انا الامبراطور انوس انوس 🦇*, 
-تم تطويري بواسطة *70ا الامبراطور انوس ❤️*.↲
+مرٍحٍبآ بگ فَيَ بۆت 〘لامبراطور انوس〙
 
-♠️ البادئة الخاصة بي هي:  ${prefix}
+آلُآۆآمرٍ آلُخـآصة بيَ ⛩️  : 
+〄━━━━━⌬〔🧝🏻‍♀️ *قائمة المغامرين*🧝🏻‍♂️〕⌬━━━━━〄
+
+⇜ .بروفايل 
+⇜ يعرض معلوماتك
+
+⇜ .المطور
+⇜ يعطيك صاحب البوت
+
+⇜.انوس
+⇜المطور الاساسي الي هذا البوت اذا كتبت.انوس تعتبر الاوامر
+⇜ .الاوامر
+⇜ يعرض لك قائمة الاوامر
+
+⇜ .تطقيم
+⇜ يجيب تطقيمات عشوائية
+
+〄━━━━━⌬〔⚜️ *قائمةالتسليه*⚜️〕⌬━━━━━〄
+
+⇜من انت 
+⇜ انقلع  
+⇜ منور
+⇜ انوس
+⇜ عمك
+⇜ من الغبي
+⇜ انوس احبك 
  
-*✶━━━✲─ • ❨🤖❩ • ─✲━━━✶*
-اوامر قليل ولاكنت نحن نطور البوت يومن على يوم↲
-*كيف صنع بوت وتس ملصقات* *وأوامر كثييره 😍* 
-*بوت اسطوره🤩*
-*رابط الفيديو📽️* ↲
-*كل الروابط في التعليقات* 
-*اذا واجهتك اي مشكله ادخل* *جروب الدعم💪*↲
-https://youtu.be/8v7smdKSklA
-*ملاحظة⚠️*
-*سوي اشتراك ولايكي وتعليق حلو مثلك❣️*↲
-https://youtu.be/Ligaee2E-Hc 
-*كيف تصنع بوت وتس ملصقات وأوامر كثييره بوت خيالي🥳🥳🥳*↲
-https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY
-*جروب تعليم صناعت بوتات 😍*
-*✶━━━✲─ • ❨اوامر اضافيه📀❩ • ─✲━━━✶*
-↲بروفايل║
-↲الاوامر ║↲
-↲التسجيل║↲
-↲الدعم║↲
-↲المطور ║↲
-↲انوس ║↲
-↲انطق║↲
-*✶━━━✲─ • ❨اوامر المالك⚜️❩ • ─✲━━━✶*
-↲عام║↲
-↲خاص ║↲
-↲حظر║↲
-↲بان║↲
-↲اخرج║↲
-↲انظم║↲
-↲بلوك║↲
-↲فك-البلوك║↲
-↲شير║↲
-*✶━━━✲─ • ❨الجروبات🧰❩ • ─✲━━━✶*
-↲منشن ║↲
-↲مخفي ║↲
-↲المتصلين ║↲
-↲حذف║↲
-↲لينك║↲
-↲رستر║↲
-↲رفع║↲
-↲تنزيل ║↲↲
-↲تغيرالبايو║↲
-↲تغيرالصوره║↲
-↲جروب ║↲
-↲طرد║↲
-↲اضافه ║↲
-↲الروابط ║↲
-*✶━━━✲─ • ❨التحميلات❩ • ─✲━━━✶*
-↲شغل║↲
-↲تشغيل║↲
-↲انمي ║↲
-↲صوره║↲
-↲تطقيم ║↲
-↲بحث║↲
-↲جوجل ║↲
-↲ملصق║↲
-↲سرقه ║↲
-↲دمج║║↲
-↲ايموجي ║↲
-↲لصوره║↲
-↲لفيديو║↲
-↲لمتحرك║↲
-↲اكتب║↲
-↲لولي║↲
-↲ميديافاير║↲
-↲انستجرام║↲
-↲فيسبوك║↲
-↲تويتر║↲
-↲تيكتوك║↲
-*✶━━━✲─ • ❨🤩المرح🤩❩ • ─✲━━━✶*
-↲زواج║↲
-↲طلاق║↲
-↲المستوي║↲
-↲رفيق║↲
-↲فراق║
-↲نسبه-حبك║
-↲نسبه جمالك║
-↲شخصيتك║
-↲عكس║
-↲اختفاء ║
 
-*✶━━━✲─ • ❨🤖❩ • ─✲━━━✶
+〄━━━━━⌬〔⚜️ *قائمة المؤسس*⚜️〕⌬━━━━━〄
+
+⇜ .بان
+⇜ حظر الكروب من البوت
+
+⇜ .حظر 
+⇜ حظر البوت من المزعجين 
+
+⇜ .خاص
+⇜ جعل البوت خاص فقط لمؤسس
+
+⇜ .عام
+⇜ جعل البوت عام للجميع ا
+
+⇜ .بلوك
+⇜ حظر عضو من خاص عند البوت
+
+⇜ .فك-البلوك
+⇜ فتح البلوك عن العضو 
+
+⇜ .اخرج
+⇜ خروج البوت من كروب
+
+⇜ .انضم
+⇜ دخول بوت للكروب
+
+⇜ .شير
+⇜ نشر رسالة في كل كروبات 
+
+⇜ .مستوى
+⇜ يرفع مستوى عضو
+
+〄━━━━━⌬〔 🎞️ *قائمة التنزيلات*🎞️ 〕⌬━━━━━〄
+
+⇜ .فيسبوك
+⇜ تنزيل من الفايسبوك 
+
+⇜ .تويتر
+⇜ تنزيل من التويتر
+
+⇜ .انستجرام
+⇜ تنزيل من انستجرام
+
+⇜ .تيكتوك
+⇜ تحميل من تيكتوك
+
+⇜ .ميديافاير
+⇜ تحميل من ميدافاير
+
+〄━━━━━⌬〔 ⚔️قائمة الفرسان⚔️〕⌬━━━━━〄
+
+⇜ .طرد
+⇜ طرد العضو
+
+⇜ .منشن
+⇜ منشن جماعي
+
+⇜ .مخفي 
+⇜ منشن مخفي 
+
+⇜ .حذف
+⇜ حذف رسالة البوت
+
+⇜ .الروابط
+⇜ تفعيل وضع منع الروابط
+
+⇜ .جروب
+⇜ فتح وإغلاق الكروب
+
+⇜ .تغيرالبايو
+⇜ تغير بايو الكروب
+
+⇜ .تغيرالصوره
+⇜ تغير صوره الكروب
+
+⇜ .اضافه
+⇜ اضافه العضو الا مجموعة
+
+⇜ .اعدادات
+⇜ جلب معلومات الكروب
+
+⇜ .رفع
+⇜ رفع العضو لمشرف
+
+⇜  .اقاله 
+⇜ ازالة إشراف 
+
+〄━━━━━⌬〔 🎮 *قائمة العاب*🎮〕⌬━━━━━〄
+
+⇜ .زواج
+⇜ يزوج إثنين عشوائي
+
+⇜.غبي
+⇜يختار لك اثنين أغبياء عشوائي 
+
+⇜.ذكي
+⇜يختار لك اثنين أذكياء عشوائى 
+
+⇜.زوجني
+⇜يختار لك زوج/ه عشوائى 
+
+⇜.حمار
+⇜يختار لك حمار من الاعضاء 
+
+⇜.رجال
+⇜يختار أعضاء عشوائى 
+
+⇜.حزين
+⇜يختار لك حزين من الاعضاء 
+
+⇜.كلب
+⇜يختار لك كلب من كلاب 😭😂
+
+⇜.قوي
+⇜لا تصدق اقوي واحد انوس
+
+⇜.ضعيف
+⇜يختار لك عضو ضعيف 
+
+⇜ .طلاق
+⇜ يطلق إثنين عشوائي
+
+⇜ .رفيق  
+⇜ يجيب لك توأم روحك
+
+⇜ .فراق 
+⇜ يفرق إثنين عشوائي
+
+⇜  .شخصيتك
+⇜ يجيب لك شخصية شخص
+
+⇜ .نسبة-حبك
+⇜ نسبة حب شخص لك
+
+⇜ .نسبة جمالك
+⇜ نسبة جمال شخص
+
+⇜ .مهنتك
+⇜ مهنتك المستقبلية
+
+⇜ .اختفاء
+⇜ ترك سبب ذهابك
+
+〄━━━━━⌬〔 📡 *قائمة تحويلات*📡〕⌬━━━━━〄
+
+⇜ .ملصق
+⇜ تحويل فيديو أو صوره لملصق
+
+⇜  .سرقه
+⇜  سرقة ملصق وارجعاه بحقوقك
+
+⇜ .ايموجي
+⇜  .تحويل ايموجي إلى صوره
+
+⇜ .لصوره
+⇜  تحويل ملصق لصوره
+
+⇜ .لفيديو 
+⇜  تحويل ملصق متحرك لفيديو
+
+⇜ .لصوتي
+⇜ تحويل فيديو لصوت
+
+⇜ .اكتب
+⇜  يكتب لك على ملصق
+
+〄━━━━━⌬〔🔎قائمة البحث🔎〕⌬━━━━━〄
+
+ ⇜  .تشغيل
+ ⇜  البحث عن اغنية
+
+ ⇜  .فيلم
+ ⇜ البحث عن معلومات فلم
+ 
+ ⇜  .انمي
+⇜   البحث عن خلفية انمي 
+ 
+ ⇜  .صوره
+⇜   البحث عن صور عشوائية 
+
+⇜   .بحث
+ ⇜  بحث في اليوتيوب بالرابط
+ 
+ ⇜  .جوجل
+ ⇜  البحث في جوجل
+
+〄━━━━━⌬〔 ⚡قائمة النهاية ⚡〕⌬━━━━━〄
+
+*⚡ مَا يَلْفِظُ مِنْ قَوْلٍ إِلَّا لَدَيْهِ رَقِيبٌ عَتِيدٌ 🕊️⚡*
+
+*⚡ثم نشكر (اسمك) سان على هاذا عمل عظيم🕊️⚡*
+
+*⚡ثم أتمنى وأطلب ﷲ أن يعجبكم البوت وأن ينال إعجابكم وأستمحكم وأترككم من أجل أن تستمتعو بكل شيء وإلا القاء🤍🕊️.*
+
+🕊 اكتب:  . قبل كل امر ليعمل معك البوت
 🪷شكرا لك على استخدام بوتات انوس
 🪷اذا اعجبك البوت سوي لايكي واشترك في القناه
-🪷اكتب". " قبل كل امر مثل. *. الاوامر*
 
 🏖️ اكتب:  ${prefix} قبل كل امر ليعمل معك البوت
 
@@ -4978,6 +5278,8 @@ https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY
     {buttonId: `.owner`, buttonText: {displayText: 'مطور البوت 👤'}, type: 1},
 
     {buttonId: `.help`, buttonText: {displayText: 'الاوامر🌺'}, type: 1},
+
+    {buttonId: `.الامبراطور`, buttonText: {displayText: 'انوس🦇⚜️'}, type: 1},
 
     {buttonId: `.nsfw on`, buttonText: {displayText: 'قائمه اضافيه 💦'}, type: 1}
     ]
@@ -5003,7 +5305,7 @@ case '':
       mikupic ='https://telegra.ph/file/1592262447c5ce8714b60.jpg'
     
         
- const needhelpmenu = `👋. مرحبا بك   البداية الخاص بي هيا. *${prefix}*`
+ const needhelpmenu = `👋.  مرحبا بك في بوت انوس بوت من اعضم البوتات في العالم اذا كنت حاب تواصل معا المطور اكتب.الامبراطور. *${prefix}*`
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
@@ -5019,6 +5321,125 @@ case '':
                 }
 break
 
+
+case 'انقلع': case 'انقلع يابوت': case 'انقلعي': case 'انقلعو': case 'نقلع': case 'انوس انقلع':{
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+      
+ const helpmenu =`⚜️*${pushname}*,
+
+انت انقلع انا ساضل هنا
+
+let buttonshelpm = [
+
+    {buttonId: `.الامبراطور`, buttonText: {displayText: '❤️ انوس احبك'}, type: 1},
+
+    {buttonId: `.الامبراطور`, buttonText: {displayText: 'انوس انت ملك الشياطين'}, type: 1}
+    ]
+                let buttonMessage = {
+                    video:fs.readFileSync('./system/miku2.mp4'),gifPlayback:true,
+                    caption: helpmenu,
+                    footer: `${BotName}`,
+                    buttons: buttonshelpm,
+                    headerType: 4
+                    
+                }
+            Miku.sendMessage(m.chat, buttonMessage,{ quoted:m })
+                
+break
+
+
+case 'انوس احبك': case 'احبك': case 'انوسي احبك': case 'حبك': case 'تحبني': case 'انوس تحبني':{
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+      
+ const helpmenu =`⚜️احبك كثييييييير يا عمري😭💖💖💖*${pushname}*,
+
+الحب هوا عندنا قال رسول الله الي عائشة رضي الله عنه عيوني تنام وقلبي لا ينام😭❤️
+
+let buttonshelpm = [
+
+    {buttonId: `.الامبراطور`, buttonText: {displayText: '❤️ انوس احبك'}, type: 1},
+
+    {buttonId: `.الامبراطور`, buttonText: {displayText: 'انوس انت ملك الشياطين'}, type: 1}
+    ]
+                let buttonMessage = {
+                    video:fs.readFileSync('./system/miku2.mp4'),gifPlayback:true,
+                    caption: helpmenu,
+                    footer: `${BotName}`,
+                    buttons: buttonshelpm,
+                    headerType: 4
+                    
+                }
+            Miku.sendMessage(m.chat, buttonMessage,{ quoted:m })
+break
+
+
+
+case 'منور': case 'نورت': case 'منوره': case 'نورتي': case 'نوري': case 'منورين':{
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+      
+ const helpmenu =`طبعاً 🙂من نوري يا*${pushname}*,
+
+
+
+let buttonshelpm = [
+
+    {buttonId: `.انوس`, buttonText: {displayText: '❤️ انوس احبك'}, type: 1},
+
+    {buttonId: `.الامبراطور`, buttonText: {displayText: 'انوس انت ملك الشياطين'}, type: 1}
+    ]
+                let buttonMessage = {
+                    video:fs.readFileSync('./system/miku2.mp4'),gifPlayback:true,
+                    caption: helpmenu,
+                    footer: `${BotName}`,
+                    buttons: buttonshelpm,
+                    headerType: 4
+                    
+                }
+            Miku.sendMessage(m.chat, buttonMessage,{ quoted:m })
+break
+
+
+
+case 'من انت':
+    if(isCmd){
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+
+      mikupic ='https://telegra.ph/file/1592262447c5ce8714b60.jpg'
+    
+        
+ const needhelpmenu = `انا انوس ملك الشياطين الشياطين يا  @${jodoh.split('@')[0]}
+
+
+
+break
+
+
+case 'عمك':
+    if(isCmd){
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+
+      mikupic ='https://telegra.ph/file/1592262447c5ce8714b60.jpg'
+    
+        
+ const needhelpmenu = `افهم انوس عم الكل يا  @${jodoh.split('@')[0]}
+
+break
+
+case 'من الغبي':
+    if(isCmd){
+    if (isBan) return reply(mess.banned)	 			
+    if (isBanChat) return reply(mess.bangc)
+
+      mikupic ='https://telegra.ph/file/1592262447c5ce8714b60.jpg'
+    
+        
+ const needhelpmenu = `هذا 🤣🤣  @${jodoh.split('@')[0]}
+break
 
 
 case 'انوس': case 'الامبراطور':
