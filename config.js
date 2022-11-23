@@ -14,8 +14,8 @@ global.BotName = "❤️الامبراطور انوس ❤️"
 global.packname = "◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢"
 global.author = "★+967771160204 ★"
 global.OwnerName = "❤️الامبراطور انوس ❤️️"
-global.BotSourceCode = "https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"
-global.SupportGroupLink = "https://chat.whatsapp.com/JUngwIYTMVzCxMuismJuOY"
+global.BotSourceCode = "https://chat.whatsapp.com/BLslNI44y4C8U1PEAPeqdc"
+global.SupportGroupLink = "https://chat.whatsapp.com/BLslNI44y4C8U1PEAPeqdc"
 global.sessionName = "session"
 
 // Prefix //
@@ -27,7 +27,7 @@ global.location = "bihar, India"
 global.reactmoji = "🌺"
 global.themeemoji = "⚜️"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
-global.websitex = "https://instagram.com/70o0o0da_12?igshid=YmMyMTA2M2Y="
+global.websitex = "https://youtu.be/cVleA7ClRqQ"
 global.lolhuman = "KaysaS"
 
 
