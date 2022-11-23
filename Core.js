@@ -1396,8 +1396,8 @@ switch(command) {
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
-    mediaUrl: 'https://telegra.ph/file/f1a719ad79f830231d984.jpg',
-    sourceUrl: "https://telegra.ph/file/f1a719ad79f830231d984.jpg"
+    mediaUrl: 'https://telegra.ph/file/1592262447c5ce8714b60.jpg',
+    sourceUrl: "https://telegra.ph/file/1592262447c5ce8714b60.jpg"
     }}*/
 
     }
@@ -1425,7 +1425,7 @@ case 'بروفايل': case 'profile': case 'انا':
     
           } catch (e) {
      
-      pfp ='https://telegra.ph/file/f1a719ad79f830231d984.jpg'
+      pfp ='https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss'
     }
 
      const profilexx = `*『 صورتك قمر زيك يروحي🥺♥✨ 』*\n\n*المنشن*: ${pushname}\n*البايو*: ${bioo}\n*حالتك في الجروب?*: ${adn}\n*لفل* : ${levelMenu}\n*اكس بي* : ${xpMenu}*مستمر ل* ${reqXp}\n*مستوي* : ${role}`
@@ -3886,9 +3886,358 @@ let buttons = [
 { buttonId: '🙂', buttonText: { displayText: 'يب🙂' }, type: 1 }
 ]
 await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+} 
+break
+
+case 'اوامر المغامرين': case 'المغامرين': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `〄━━━━━⌬〔🧝🏻‍♀️ *قائمة المغامرين*🧝🏻‍♂️〕⌬━━━━━〄
+
+⇜ .بروفايل 
+⇜ يعرض معلوماتك
+
+⇜ .المطور
+⇜ يعطيك صاحب البوت
+
+⇜.انوس
+⇜المطور الاساسي الي هذا البوت اذا كتبت.انوس تعتبر الاوامر
+
+⇜. الوصفه 
+⇜عرض الوصفه حق الجروب 
+
+⇜.الدعم
+⇜عرض الدعم
+
+⇜.التسجيل 
+⇜روابط الجروب 
+
+⇜ .الاوامر
+⇜ يعرض لك قائمة الاوامر
+
+⇜ .تطقيم
+⇜ يجيب تطقيمات عشوائية
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: 'انوس', buttonText: { displayText: 'المطور' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
 }
 break
 
+case 'اوامر المؤسس': case 'المؤسس': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = ` 〄━━━━━⌬〔⚜️ *قائمة المؤسس*⚜️〕⌬━━━━━〄
+
+⇜ .بان
+⇜ حظر الكروب من البوت
+
+⇜ .حظر 
+⇜ حظر البوت من المزعجين 
+
+⇜ .خاص
+⇜ جعل البوت خاص فقط لمؤسس
+
+⇜ .عام
+⇜ جعل البوت عام للجميع ا
+
+⇜ .بلوك
+⇜ حظر عضو من خاص عند البوت
+
+⇜ .فك-البلوك
+⇜ فتح البلوك عن العضو 
+
+⇜ .اخرج
+⇜ خروج البوت من كروب
+
+⇜ .انضم
+⇜ دخول بوت للكروب
+
+⇜ .شير
+⇜ نشر رسالة في كل كروبات 
+
+⇜ .مستوى
+⇜ يرفع مستوى عضو
+
+*〄━━━━━⌬〔⚜️انتهاء قائمة المؤسس⚜️ 〕⌬━━━━━〄*
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: 'انوس', buttonText: { displayText: 'المطور' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'اوامر الجروب': case 'جروب': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `*〄━━━━━⌬〔 ⚔️قائمة الفرسان⚔️〕⌬━━━━━〄*
+
+⇜ .طرد
+⇜ طرد العضو
+
+⇜ .منشن
+⇜ منشن جماعي
+
+⇜ .مخفي 
+⇜ منشن مخفي 
+
+⇜ .حذف
+⇜ حذف رسالة البوت
+
+⇜ .الروابط
+⇜ تفعيل وضع منع الروابط
+
+⇜ .جروب
+⇜ فتح وإغلاق الكروب
+
+⇜ .تغيرالبايو
+⇜ تغير بايو الكروب
+
+⇜ .تغيرالصوره
+⇜ تغير صوره الكروب
+
+⇜ .اضافه
+⇜ اضافه العضو الا مجموعة
+
+⇜ .اعدادات
+⇜ جلب معلومات الكروب
+
+⇜ .رفع
+⇜ رفع العضو لمشرف
+
+⇜  .اقاله 
+⇜ ازالة إشراف 
+
+*〄━━━━━⌬〔⚔️انتهاء قائمة فرسان ⚔️〕⌬━━━━━〄*
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: 'انوس', buttonText: { displayText: 'المطور⚡' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'اوامر العاب': case 'العاب': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `*〄━━━━━⌬〔 🎮 قائمة العاب🎮〕⌬━━━━━〄*
+
+⇜ .زواج
+⇜ يزوج إثنين عشوائي
+
+⇜ .طلاق
+⇜ يطلق إثنين عشوائي
+
+⇜ .رفيق  
+⇜ يجيب لك توأم روحك
+
+⇜ .فراق 
+⇜ يفرق إثنين عشوائي
+
+⇜  .شخصيتك
+⇜ يجيب لك شخصية شخص
+
+⇜ .نسبة-حبك
+⇜ نسبة حب شخص لك
+
+⇜ .نسبة جمالك
+⇜ نسبة جمال شخص
+
+⇜ .مهنتك
+⇜ مهنتك المستقبلية
+
+⇜ .اختفاء
+⇜ ترك سبب ذهابك
+
+⇜ .ضعيف
+⇜ يجيب لك شخص ضعيف
+
+⇜ .قوي
+⇜ يجيب لك شخص قوي
+
+⇜ .رجل
+⇜ يجيب لك شخص رجل
+
+⇜ .زوجني
+⇜ يزوجك شخص
+
+⇜ .حزين
+⇜ يجيب لك شخص حزين
+
+⇜ .كلب
+⇜ يجيب لك شخص كلب
+
+⇜ .ذكي
+⇜ يجيب لك شخص ذكي
+
+⇜ .غبي
+⇜ يجيب لك شخص غبي 
+
+*〄━━━━━⌬〔 🎮انتهت قائمة العاب🎮 〕⌬━━━━━〄* 
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: 'انوس', buttonText: { displayText: 'المطور⚜️' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'اوامر التحويلات': case 'تحويلات': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `〄━━━━━⌬〔 📡 *قائمة تحويلات*📡〕⌬━━━━━〄
+
+⇜ .ملصق
+⇜ تحويل فيديو أو صوره لملصق
+
+⇜  .سرقه
+⇜  سرقة ملصق وارجعاه بحقوقك
+
+⇜ .ايموجي
+⇜  .تحويل ايموجي إلى صوره
+
+⇜ .لصوره
+⇜  تحويل ملصق لصوره
+
+⇜ .لفيديو 
+⇜  تحويل ملصق متحرك لفيديو
+
+⇜ .لصوتي
+⇜ تحويل فيديو لصوت
+
+⇜ .اكتب
+⇜  يكتب لك على ملصق
+
+*〄━━━━━⌬〔📡 قائمة تحويلات📡 〕⌬━━━━━〄*
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: 'انوس', buttonText: { displayText: 'المطور⚜️' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'اوامر التنزيلات': case 'التنزيلات': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `*〄━━━━━⌬〔 🎞️ قائمة التنزيلات🎞️ 〕⌬━━━━━〄*
+
+⇜ .فيسبوك
+⇜ تنزيل من الفايسبوك 
+
+⇜ .تويتر
+⇜ تنزيل من التويتر
+
+⇜ .انستجرام
+⇜ تنزيل من انستجرام
+
+⇜ .تيكتوك
+⇜ تحميل من تيكتوك
+
+⇜ .ميديافاير
+⇜ تحميل من ميدافاير
+
+*〄━━━━━⌬〔🎞️  انتهاء قائمة التنزيلات🎞️  〕⌬━━━━━〄*
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: 'انوس', buttonText: { displayText: 'المطور⚜️' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'اوامر البحث': case 'البحث': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `
+〄━━━━━⌬〔🔎قائمة البحث🔎〕⌬━━━━━〄
+
+ ⇜  .تشغيل
+ ⇜  البحث عن اغنية
+
+ ⇜  .فيلم
+ ⇜ البحث عن معلومات فلم
+ 
+ ⇜  .انمي
+⇜   البحث عن خلفية انمي 
+ 
+ ⇜  .صوره
+⇜   البحث عن صور عشوائية 
+
+⇜   .بحث
+ ⇜  بحث في اليوتيوب بالرابط
+ 
+ ⇜  .جوجل
+ ⇜  البحث في جوجل
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: 'قناتي', buttonText: { displayText: 'المطور انوس 🦇' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
+break
+
+case 'soulmate': case 'ذكي': {
+    if (isBan) return reply(mess.banned)
+    if (isBanChat) return reply(mess.bangc)
+if (!m.isGroup) return replay(`${mess.grouponly}`)
+let member = participants.map(u => u.id)
+let me = m.sender
+let jodoh = member[Math.floor(Math.random() * member.length)]
+let jawab = `〄━━━━━⌬〔 ⚡قناتي⚡〕⌬━━━━━〄
+*قناتي على اليوتيوب*{https://youtu.be/cVleA7ClRqQ}
+
+
+*مطور البوتات*{https://api.whatsapp.com/send?phone=+967771160204} 
+
+*جروبي على الوتساب*{https://chat.whatsapp.com/BLslNI44y4C8U1PEAPeqdc} 
+
+
+〄━━━━━⌬〔 ⚡قناتي⚡〕⌬━━━━━〄
+@${me.split('@')[0]}`
+let ments = [me, jodoh]
+let buttons = [
+{ buttonId: 'الاوامر', buttonText: { displayText: 'اوامر اضافيه⚜️' }, type: 1 }
+]
+await Miku.sendButtonText(m.chat, buttons, jawab, Miku.user.name, m, {mentions: ments})
+}
 case 'فارقني': case 'فراق': {
     if (isBan) return reply(mess.banned)
     if (isBanChat) return reply(mess.bangc)
@@ -5315,7 +5664,39 @@ case '':
       mikupic ='https://telegra.ph/file/1592262447c5ce8714b60.jpg'
     
         
- const needhelpmenu = `👋.  مرحبا بك في بوت انوس بوت من اعضم البوتات في العالم اذا كنت حاب تواصل معا المطور اكتب.الامبراطور. *${prefix}*`
+ const needhelpmenu = `👋. 〄━━━━━⌬〔 ⚡لوحه الاوامر⚡〕⌬━━━━━〄
+*السلام وعليكم ورحمة الله*
+*انا انوس المطور الحقيقي الي هذا البوت اذا كنت حاب تستفسر عندي او عندك امر بدك اضافته هذا رقمي*{https://api.whatsapp.com/send?phone=+967730348571} 
+〄━━━━━⌬〔 ⚡ الاوامر⚡〕⌬━━━━━〄
+*كل الاوامر في امر واحد*
+
+*✯.اوامر المغامرين*
+*✫اوامر اضافيه*
+
+*✯.اوامر المؤسس*
+*✫جميع اوامر المطور*
+
+*✯اوامر التنزيلات*
+*✫جميع اوامر التحميلات*
+
+*.✯اوامر الجروب*
+*✫جميع اوامر الجروب*
+
+*✯.اوامر العاب*
+*✫جميع اوامر العاب*
+
+*✯.اوامر التحويلات*
+*✫جميع اوامر التحويلات*
+
+*✯.اوامر البحث*
+*✫جميع اوامر البحث*
+〄━━━━━⌬〔 ⚡النهايه⚡〕⌬━━━━━〄
+*اتمنا ان يعجبكم البوت*
+*اكتب نقطه قبل كل امر*
+*انوس يحبكم كثييييييير*
+https://youtu.be/cVleA7ClRqQ
+*كيف صنع بوت وتس عربي*
+〄━━━━━⌬〔 ⚡اشترك في قناتي⚡〕⌬━━━━━〄 . *${prefix}*`
      
          let butRun = [
                 {buttonId: `.help`, buttonText: {displayText: 'القائمه✨'}, type: 1}
@@ -5339,38 +5720,38 @@ case 'انوس': case 'الامبراطور':
 
 const txt = ` انوس بيحبك🌚❤️ / رقمي للتواصل معايا:https://api.whatsapp.com/send?phone=+967730348571    `
 const mikuarray= [
-            "https://c.tenor.com/SOeIW-QVZvoAAAPo/scared-the-quintessential-quintuplets.mp4",
-            "https://c.tenor.com/FDe7lTs0xvMAAAPo/miku-nakano-nakano-miku.mp4",
-            "https://c.tenor.com/IWKYIP6AMIgAAAPo/miku-nakano-the-quintessential-quintuplets.mp4",
-            "https://c.tenor.com/qE3H_Ae_jTQAAAPo/miku-nakano-nakano.mp4",
-            "https://c.tenor.com/9ijVngbm_ZMAAAPo/itsuki-nakano-the-quintessential-quintuplets.mp4",
-            "https://c.tenor.com/Fz9xGVR_FHAAAAPo/miku-nakano-nakano-miku.mp4",
-            "https://c.tenor.com/ALV6SZoJZb8AAAPo/gotoubun-corada.mp4",
-            "https://c.tenor.com/QHefpWiqvN4AAAPo/blush-anime.mp4",
-            "https://c.tenor.com/NJVFjOYEcsIAAAPo/miku-gotoubun.mp4",
-            "https://c.tenor.com/DA88NW5x_0wAAAPo/miku-nakano-stare.mp4",
-            "https://c.tenor.com/zNTH_-ks3GEAAAPo/miku-nakano.mp4",
-            "https://c.tenor.com/V9XEKQYRwrEAAAPo/miku-nakano-the-quintessential-quintuplets.mp4",
-            "https://c.tenor.com/GDH4WFhELpAAAAPo/anime-pout.mp4",
-            "https://c.tenor.com/ME0cvLQiW0kAAAPo/nakano-miku-go-toubun-no-hanayome.mp4",
-            "https://c.tenor.com/d5pE_0GJUf0AAAPo/miku-nakano.mp4",
-            "https://c.tenor.com/zNTH_-ks3GEAAAPo/miku-nakano.mp4",
-            "https://c.tenor.com/pCgBkgDBbnIAAAPo/nakano-miku-go-toubun-no-hanayome.mp4",
-            "https://c.tenor.com/6GTU3JEtpKoAAAPo/miku-nakano-the-quintessential-quintuplets.mp4",
-            "https://c.tenor.com/XNbmenhVucMAAAPo/5toubun-no-hanayome-gotoubun-no-hanayome.mp4",
-            "https://c.tenor.com/lyMqrhEK4scAAAPo/%EC%98%A4%EB%93%B1%EB%B6%84-5%EB%93%B1%EB%B6%84.mp4",
-            "https://c.tenor.com/vQ9TpmdjfWAAAAPo/cuteness-overload.mp4",
-            "https://c.tenor.com/PHngM6-NJVwAAAPo/miku-quintessential.mp4",
-            "https://c.tenor.com/yniTgeiOo4gAAAPo/miku-nakano.mp4",
-            "https://c.tenor.com/AULffc4ZKFIAAAPo/miku-god-miku.mp4",
-            "https://c.tenor.com/Y8Y1GbmQSOIAAAPo/miku-nakano-quintessential-quintuplets.mp4",
-            "https://c.tenor.com/m0EjrelpOfkAAAPo/miku-nakano-nakano-miku.mp4",
-            "https://c.tenor.com/x6RTarQTMzoAAAPo/miku-nakano.mp4",
-            "https://c.tenor.com/hUzZGMltInkAAAPo/gotoubun-corada.mp4",
-            "https://c.tenor.com/9-7azOBpr84AAAPo/miku-nakano-and-i-love-you.mp4",
-            "https://c.tenor.com/Ed5IC_yxZkoAAAPo/miku-nakano-gotoubun-no-hanayome.mp4",
-            "https://c.tenor.com/hDKieuZGiU0AAAPo/miku-nakano.mp4",
-            "https://c.tenor.com/WD8L3QLO024AAAPo/whaatt-the-quintessential-quintuplets.mp4"
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?app=fbl",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?app=fbl",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?app=fbl",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?app=fbl",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?app=fbl",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?app=fbl",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?app=fbl",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?app=fbl",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://www.facebook.com/groups/1124008524715671/permalink/1549181138865072/?flite=scwspnss",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg",
+            "https://telegra.ph/file/1592262447c5ce8714b60.jpg"
             
             ]
         
