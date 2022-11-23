@@ -139,7 +139,7 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 try {
                     ppgroup = await Miku.profilePictureUrl(anu.id, 'image')
                 } catch {
-                    ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg'
+                    ppgroup = 'https://telegra.ph/file/1592262447c5ce8714b60.jpg'
                 }
 
                 let targetname = await Miku.getName(num)
@@ -149,7 +149,7 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 if (anu.action == 'add') {
                 let WAuserName = num
                 mikutext =
- `أهلا وسهلا بك اذا كنت بنت انتي زوجتي 😂 واذا كنت ولد نورت جروبي🙂@${WAuserName.split("@")[0]},
+ `أهلا وسهلا بك نورت الجروب 💝🌺 🙂@${WAuserName.split("@")[0]},
 
 انا *الامبراطور انـــــــوس*, مرحبا بك في ${metadata.subject}.
 
