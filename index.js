@@ -26,7 +26,7 @@ console.log(color(figlet.textSync('chiku Bot MD', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nمرحبًا ، أنا انوس ، المطور الرئيسي لهذا البوت.\n\nشكرًا لاستخدام: ◤𝙀𝙈𝙋𝙀𝙍𝙊𝙍🦂𝘼𝙉𝙐𝙎◢','aqua'))
+console.log(color('\nمرحبًا ، أنا دابي ، المطور الرئيسي لهذا البوت.\n\nشكرًا لاستخدام: ❄️𝐍𝐞𝐫𝐨 𝐁𝐨𝐭❄️','aqua'))
 console.log(color('\nافرح تم تشغيل البوت بنجاح✅','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
@@ -45,7 +45,7 @@ store.bind(Miku.ev)
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await Miku.sendContact(callerId, global.owner)
-    Miku.sendMessage(callerId, { text: `حبيبي! سيتم حظرك تلقائيا لاتصالك بي!`}, { quoted : pa7rick })
+    Miku.sendMessage(callerId, { text: `❄صديقي! سيتم حظرك تلقائيا لاتصالك بي❄!`}, { quoted : pa7rick })
     await sleep(8000)
     await Miku.updateBlockStatus(callerId, "block")
     }
@@ -97,19 +97,19 @@ Miku.ev.on('groups.update', async pea => {
         if (pea[0].announce == true) {
         //Miku.send5ButImg(pea[0].id, `Grop has been *Closed!* Only *Admins* can send Messages!`, `Miku Bot`, wm_fatih, [])
 
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'تم اغلاق الجروب يمكن لادمن فقط ارسال الرسائل!'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: '❄تم اغلاق الجروب يمكن لادمن فقط ارسال الرسائل❄!'})
         } else if(pea[0].announce == false) {
        // Miku.send5ButImg(pea[0].id, `Grop has been *Opened!* Now *Everyone* can send Messages!`, `Miku Bot`, wm_fatih, [])
-       Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'تم فتح الجروب الان يمكن للجميع ارسال الرسائل!'})
+       Miku.sendMessage(m.chat, { image: wm_fatih, caption: '❄تم فتح الجروب الان يمكن للجميع ارسال الرسائل❄!'})
         } else if (pea[0].restrict == true) {
         //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'تم تعديل معلومات المجموعة يمكن الان لادمن فقط تعديل معلومات المجموعة !'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: '❄تم تعديل معلومات المجموعة يمكن الان لادمن فقط تعديل معلومات المجموعة❄ !'})
         } else if (pea[0].restrict == false) {
         //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'تم تعديل معلومات المجموعة الآن يمكن للجميع  تعديل معلومات المجموعة !'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: '❄تم تعديل معلومات المجموعة الآن يمكن للجميع  تعديل معلومات المجموعة❄ !'})
         } else {
         //Miku.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `Miku Bot`, wm_fatih, [])
-        mikutextddfq =`تم تحديث اسم الجروب إلى:\n\n*${pea[0].subject}*`
+        mikutextddfq =`❄تم تحديث اسم الجروب إلى❄:\n\n*${pea[0].subject}*`
         Miku.sendMessage(pea[0].id, { image: wm_fatih, caption: mikutextddfq})
       }
      })
@@ -149,14 +149,14 @@ Miku.ev.on('group-participants.update', async (anu) => {
                 if (anu.action == 'add') {
                 let WAuserName = num
                 mikutext =
- `أهلا وسهلا بك نورت الجروب 💝🌺 🙂@${WAuserName.split("@")[0]},
+ `أهلا وسهلا بك أيها المغامر/ة نورت ❄🌚@${WAuserName.split("@")[0]},
 
-انا *الامبراطور انـــــــوس*, مرحبا بك في ${metadata.subject}.
+*انا البـوتـة نيـرو أفضـل بـوتـة🫧🌚 نورت كروب:* ${metadata.subject}.
 
-* وصف الجروب:*
+*❄🕊وصف الجروب:*
 ${metadata.desc}
 
-نورت الجروب يا حبي😍😭
+*نورت كروب استمتع أيها المغامر/ة❤️🌚*
 `
 
     let buttonMessage = {
@@ -170,9 +170,12 @@ Miku.sendMessage(anu.id, buttonMessage)
                 } else if (anu.action == 'remove') {
                 	let WAuserName = num
                     mikutext = `
-مع السلامه 👋, @${WAuserName.split("@")[0]},
+*الا لقاء أيها الإنسان العظيم*❄️👋🏻, @${WAuserName.split("@")[0]},
 
-⚜️🦇, مع السلامه  من بعنا خسر دلعنا⚜️🦇 تفجعنا في خروجك كنت بتقول وانا بطردك بدون ان تتعب😂💔!
+,أتمنى لك أيام سعيدة وأنك ستمتعت في مجموعة
+,وأن تعود لنا بسلامة وأن يحفظك لله طريق سلامة 🤍☃️
+
+*{ اللهم أنك أنت الحافظ والعفو الغفور، لا تؤاخذنا بذنوبنا واحفظنا بحفظك وكرمك، اللهم لا تكل أمرنا لمن لا يحفظه }*🤍🌹 !
 `
 
     let buttonMessage = {
