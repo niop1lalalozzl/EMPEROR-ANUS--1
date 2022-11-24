@@ -5638,8 +5638,6 @@ case 'help': case 'الاوامر': case 'menu': case 'اوامر': case 'الق
 
     {buttonId: `.help`, buttonText: {displayText: 'الاوامر🌺'}, type: 1},
 
-    {buttonId: `.الامبراطور`, buttonText: {displayText: 'انوس🦇⚜️'}, type: 1},
-
     {buttonId: `.nsfw on`, buttonText: {displayText: 'قائمه اضافيه 💦'}, type: 1}
     ]
                 let buttonMessage = {
