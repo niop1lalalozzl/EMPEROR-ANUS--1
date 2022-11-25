@@ -1380,7 +1380,7 @@ switch(command) {
     case 'sc': case 'التبرع': case 'سكريبت': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}' سكريبت*\n\n*يوتيوب*: ${global.BotSourceCode}\n\nلا تنسي الاشتراك بقناه اليوتيوب⭐️. `
+    teks = `*${global.BotName}' سكريبت*\n\n*انستا*: ${global.BotSourceCode}\n\nلا تنسي الاشتراك بقناه الأنستا ⭐️. `
     let buttons = [
     {buttonId: `.menu`, buttonText: {displayText: 'قائمه الاوامر ❄✨'}, type: 1}
     ]
@@ -5816,6 +5816,9 @@ case 'help': case 'الاوامر': case 'menu': case 'اوامر': case 'الق
 ♤ يجيب لك اكتر شخص هادي
 
 ♡ .الاكبر
+♤ يجيب لك اكتر شخص كبير
+
+♡ .نسبه-الكره
 ♤ يجيب لك اكتر شخص كبير
 
  ♡.اختفاء 
